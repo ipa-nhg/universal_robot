@@ -82,8 +82,8 @@ center_of_mass = [ [0.00008, -0.037, 0.00244], [0.38757, 0.00001, 0.15061], [0.1
   <property name="elbow_collision_length" value="0.200" />     <!-- manually measured -->
   <property name="elbow_collision_offset" value="0.035" />     <!-- manually measured -->
 
-  <property name="joint_limit_lower" value="${-1.0 * pi}" />
-  <property name="joint_limit_upper" value="${1.0 * pi}" />
+  <property name="joint_limit_lower" value="${-1.4 * pi}" />
+  <property name="joint_limit_upper" value="${1.4 * pi}" />
   <property name="joint_limit_effort" value="50.0" />
   <property name="joint_limit_velocity" value="${pi}" />
 
