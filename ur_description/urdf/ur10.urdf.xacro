@@ -43,12 +43,12 @@ center_of_mass = [ [0.00008, -0.037, 0.00244], [0.38757, 0.00001, 0.15061], [0.1
 
 <!-- Inertia parameters -->
   <property name="base_mass" value="4.0" /> <!-- Invented number, only matters for simulator -->
-  <property name="shoulder_mass" value="7.778" />
-  <property name="upper_arm_mass" value="12.930" />
-  <property name="forearm_mass" value="3.87" />
-  <property name="wrist_1_mass" value="1.96" />
-  <property name="wrist_2_mass" value="1.96" />
-  <property name="wrist_3_mass" value="0.202" />
+  <property name="shoulder_mass" value="1" />
+  <property name="upper_arm_mass" value="1" />
+  <property name="forearm_mass" value="1" />
+  <property name="wrist_1_mass" value="0.5" />
+  <property name="wrist_2_mass" value="0.5" />
+  <property name="wrist_3_mass" value="0.5" />
 
   <!-- TODO -->
   <property name="shoulder_cog" value="0.00008 0.00244 -0.037" />
@@ -84,7 +84,7 @@ center_of_mass = [ [0.00008, -0.037, 0.00244], [0.38757, 0.00001, 0.15061], [0.1
 
   <property name="joint_limit_lower" value="${-1.4 * pi}" />
   <property name="joint_limit_upper" value="${1.4 * pi}" />
-  <property name="joint_limit_effort" value="50.0" />
+  <property name="joint_limit_effort" value="150.0" />
   <property name="joint_limit_velocity" value="${pi}" />
 
 
