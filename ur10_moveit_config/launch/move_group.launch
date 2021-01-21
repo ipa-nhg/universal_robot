@@ -21,6 +21,9 @@
 
   <arg name="capabilities" default=""/>
   <arg name="disable_capabilities" default=""/>
+
+  <remap from="/follow_joint_trajectory" to="/pos_joint_traj_controller/follow_joint_trajectory"/>
+
   <!-- load these non-default MoveGroup capabilities (space seperated) -->
   <!--
   <arg name="capabilities" value="
